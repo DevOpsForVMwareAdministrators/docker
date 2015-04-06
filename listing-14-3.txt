@@ -1,0 +1,12 @@
+#Sample Dockerfile for Nginx
+
+
+# Ubuntu Trusty release selected for the web server
+FROM ubuntu:14.04
+MAINTAINER Trevor Roberts Jr <vmtrooper@gmail.com>
+# Install the add-apt-repository utility
+RUN apt-get -qq update && apt-get install -qq -y software-properties-common
+# Add the nginx stable repository
+RUN add-apt-repository -y ppa:nginx/stable && apt-get -qq -y update
+# Install nginx
+RUN apt-get install -qq -y nginx

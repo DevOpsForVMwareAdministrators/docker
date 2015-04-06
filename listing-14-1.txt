@@ -1,0 +1,21 @@
+#Sample docker command for redis database
+
+$ docker run -d -p 6379:6379 --name redis redis
+
+#Expected Output
+
+#Unable to find image 'redis' locally
+#Pulling repository redis
+#dc10c1051e26: Download complete
+#511136ea3c5a: Download complete
+#1e8abad02296: Download complete
+#f106b5d7508a: Download complete
+#842b5a724d2d: Download complete
+#c48940f9fc45: Download complete
+#013e99580bf7: Download complete
+#076c6da2d5e4: Download complete
+#b7db07b1768c: Download complete
+#5e22b7a89800: Download complete
+#4b10ba128f08: Download complete
+#fd9a01509f91: Download complete
+#6dc9daf74f25906ea4f71ac64ef5fd92019acaf14434b1257d76b207e69855f8
